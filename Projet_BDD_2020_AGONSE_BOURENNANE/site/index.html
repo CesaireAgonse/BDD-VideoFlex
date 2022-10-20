@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="public/css/base.css">
+    <link rel="stylesheet" href="public/css/header.css">
+
+    <title>Accueil</title>
+    
+    
+  </head>
+  
+  <body>
+
+    <div id="header">
+      <div class="container">
+        <div class="header_navbar">
+          
+          <div class="header_navbar_left">
+            <div class="header_navbar_logo">
+              <img class="header_navbar_logo_img" src="public/img/logo.png" alt ="test" title="VidéoFlex le meilleur site de streaming français">
+            </div>
+            
+            <div class="header_menu">
+              <a href="index.html" class="header_navbar_menu_link">accueil</a>
+              <a href="film.php" class="header_navbar_menu_link">film</a>
+              <a href="serie.php" class="header_navbar_menu_link">serie</a>
+            
+            </div>
+          </div>
+
+          <div class="header_navbar_right">
+            <a href="login.php" class="header_navbar_menu_link">se connecter</a>
+            <a href="logout.php" class="header_navbar_menu_link">deconnexion</a>
+
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="container">
+
+      <div class="message_bienvenue">
+        <h1>Bienvenue sur le meilleur site de streaming français</h1>
+        <img class="message_bienvenue_img" src="public/img/logo.png"/>
+      </div>
+        
+      
+      
+    </div>
+
+    <div class="footer">
+      <link rel="stylesheet" href="public/css/header.css">
+        <div class="container">          
+          <p>Projet de BDD 2020/2021 TP8 realisé par Césaire Agonsè et Yacine Bourennane</p>
+    
+        </div>
+    </div>
+    
+
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("header").style.top = "0";
+        } else {
+          document.getElementById("header").style.top = "-80px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    </script>
+  </body>
+</html>
