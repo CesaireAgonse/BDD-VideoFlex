@@ -1,4 +1,4 @@
-# Projet L2 BDD-VideoFlex
+# Projet-BDD-L2-VideoFlex
 
 Ceci est mon projet de fin de (premier) semestre en Base de donnée en 2ème année de Licence fait tout seul et rendu tel quel sans modif et donc pas du tout opti. Il est la pour le souvenir, si je suis assez deter je ferai une meilleur version.
 
